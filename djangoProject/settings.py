@@ -118,6 +118,7 @@ STATIC_ROOT = BASE_DIR / "static-root"  # Use python manage.py collectstatic --n
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
+    BASE_DIR / "favicon_statics",
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Default primary key field type

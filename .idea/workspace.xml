@@ -1,32 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="Upgraded Bootstrap V5">
-      <change afterPath="$PROJECT_DIR$/static/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index_ar.html" afterDir="false" />
+    <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="favicons added">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_ar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bases/favicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bases/javascripts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bases/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bases/stylesheets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebServer_Office/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebServer_Office/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/nav_sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/nav_sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/bootstrap4/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-root/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-114x114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-120x120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-57x57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-60x60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon-76x76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicons/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/favicon_statics/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_ar.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +204,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="24MJvPX6J3RG5Orq5KlXYRiNgRK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,14 +228,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\templates" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\WebServer_Office" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\djangoProject" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static-root" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static\favicons" />
-      <recent name="C:\Users\Main\PycharmProjects\djangoProject\static" />
-      <recent name="C:\Users\Main\PycharmProjects\djangoProject" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\templates\bases" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\favicon_statics" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static-root" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +285,9 @@
       <workItem from="1643436025671" duration="6681000" />
       <workItem from="1643469305639" duration="165000" />
       <workItem from="1643469472782" duration="583000" />
-      <workItem from="1643470498349" duration="6817000" />
+      <workItem from="1643470498349" duration="15810000" />
+      <workItem from="1643602488412" duration="670000" />
+      <workItem from="1643606392618" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Bootstrap V5">
       <created>1643479913485</created>
@@ -120,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643479913485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="favicons added">
+      <created>1643522884052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643522884052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +324,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Upgraded Bootstrap V5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded Bootstrap V5" />
+    <MESSAGE value="favicons added" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicons added" />
   </component>
 </project>

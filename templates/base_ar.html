@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ar">
+{% block html-top %}{% endblock %}
+<head>
+    <meta charset="UTF-8">
+    <title>مكتب عبدالمحسن للأستشارات الهندسية</title>
+    {% block head-top %}{% endblock %}
+{#    global stylesheets & javascripts#}
+    {% include 'bases/stylesheets.html' %}
+    {% include 'bases/javascripts.html' %}
+
+{#    Nav Bar    #}
+    {%  include 'bases/navbar.html' %}
+
+{#    Favicons    #}
+    {% include 'bases/favicons.html' %}
+
+    {% block head-bottom %}{% endblock %}
+
+</head>
+
+<body>
+{% block body_top %}{% endblock %}
+{% block body_bottom %}{% endblock %}
+</body>
+{% block html-bottom %}{% endblock %}
+</html>
