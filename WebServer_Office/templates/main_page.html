@@ -1,26 +1,43 @@
 {% extends 'base.html' %}
-
+{%  load static %}
 {% block body_top %}
-    <div class="container bg-light">
+
+    <div class="container establishment-date-container py-5">
         <div class="row">
-            <div class="col">1</div>
-            <div class="col">2</div>
+            <div class="col-md-6 text-end">
+                <img src="{% static 'Webserver_Office/main_page/indoor/5.jpg'%}" class="m-auto w-75 img_trans" alt="inner office">
+                </div>
+            <div class="col-md-6 text-center text-md-start">
+                <h4 class="pt-5 mt-5">Founded in <br/> <span class="text-success">2022/January/22</span> </h4>
+                <p class="display-6" style="font-size: medium">The office of Engineer <span class="fw-bold">Abdulmohsen Khalil Ali Abdoh Al-Sayegh</span> for Engineering Consultations has been instituted, and we are honored to serve you.</p>
+            </div>
         </div>
     </div>
 
-    <div class="container bg-dark text-light">
-        <div class="row">
-            <div class="col">3</div>
-            <div class="col">4</div>
+    <hr class="mx-5">
+    <article class="our-goal-article mb-5">
+        <div class="container our-goal-container m-0 p-0" >
+            <div class="row">
+{#                <img src="{% static "Webserver_Office/main_page/buildings/168.jpg" %}" alt="our_goal_bg_img" style="background-size: cover;">#}
+                <div class="col">5</div>
+                <div class="col">6</div>
+            </div>
         </div>
-    </div>
-
-    <div class="container-fluid bg-success">
-        <div class="row">
-            <div class="col">5</div>
-            <div class="col">6</div>
-        </div>
-    </div>
+    </article>
+<style>
+.our-goal-article{
+    background-color: #0f5132;
+    background-image: linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),url("{% static 'Webserver_Office/main_page/buildings/168.jpg' %}");
+    padding: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
 
     <div class="container bg-danger">
         <div class="row">
