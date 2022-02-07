@@ -4,6 +4,7 @@
 {% block html-top %}{% endblock %}
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <title>AKS-Engineering Consulting Office</title>
     {% block head-top %}{% endblock %}
 {#    global stylesheets & javascripts#}
@@ -21,8 +22,11 @@
 </head>
 
 <body>
-{% block body_top %}{% endblock %}
-{% block body_bottom %}{% endblock %}
+
+{% block body_top %}
+{#    Body Content   #}
+{% endblock %}
+
 </body>
 {% block html-bottom %}{% endblock %}
 </html>

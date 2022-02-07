@@ -1,0 +1,44 @@
+/*Defaults*/
+.brand{
+
+    }
+.navbar_brand_container{
+
+}
+.brand_text{
+    font-size: small;
+}
+#brand{
+        width: 30px;
+    }
+/*End Defaults*/
+
+@media (min-width: 319px){
+    #brand{
+        width: 50px;
+    }
+    .navbar_text{
+        font-size: medium;
+    }
+
+}
+
+/* Small is 576px */
+@media (min-width: 576px){
+    #brand{
+        width: 48px;
+    }
+    .brand_text{
+        font-size: large;
+    }
+    body{
+
+    }
+}
+
+/* Medium is 768px */
+@media only screen and (max-width: 768px){
+
+}
+
+

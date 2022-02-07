@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>Title</title>
+    {#    global stylesheets & javascripts#}
+    {% include 'bases/stylesheets.html' %}
+    {% include 'bases/javascripts.html' %}
+
+</head>
+
+<body>
+<div class="do-navbar container-fluid pt-2 bg-light">
+    <div class="row">
+
+        <div class="col-3 text-start" style="background-color: green">1</div>
+
+        <div class="col-9 col-sm-6 text-end text-sm-center" style="background-color: red">
+            <div class="d-flex flex">
+
+            </div>
+            <div class="navbar_brand_wrapper d-flex align-items-center align-content-center text-center justify-content-center">
+                <h6 class="d-sm-block">Abdulmohsen's Engineering Consulting Office</h6>
+                <img class="brand align-self-end" src="{% static 'navbar_brand.svg' %}" alt="navbar_brand">
+            </div>
+        </div>
+
+        <div class="col-sm-3 text-end d-none d-sm-block" style="background-color: black">3</div>
+
+    </div>
+</div>
+</body>
+</html>

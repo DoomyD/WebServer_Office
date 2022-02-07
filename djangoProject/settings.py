@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'WebServer_Office.apps.WebserverOfficeConfig',
+    'accounts'
 ]
 
 MIDDLEWARE = [

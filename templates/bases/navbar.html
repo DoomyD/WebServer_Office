@@ -1,27 +1,42 @@
-{#This html is intended to be included, it uses bootstrap5!#}
+{#This html is intended to be included in file that uses bootstrap5!#}
 {% load static %}
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
+
+  <div  class="container-fluid bg-dark">
+
+    <div class="align-items-center">
+        <a class="navbar-brand m-0 p-0" href="#">
+            <img id="brand" src="{% static 'favicon.ico' %}" alt="favicon">
+            <div class="d-inline brand_text text-white me-5 display-6">Abdulmohsen's Engineering Consulting Office</div>
+        </a>
+    </div>
+
+    <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href=""><img src="{% static 'favicon.ico' %}"></a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link " href="#">Contact us</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link " href="#">Our Goal</a>
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+{#        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">#}
+        <button class="btn btn-outline-success mx-4 d-none" type="submit">SignIn</button>
+        <button class="btn btn-success d-none" type="submit">SignUp</button>
       </form>
     </div>
   </div>
+
 </nav>
