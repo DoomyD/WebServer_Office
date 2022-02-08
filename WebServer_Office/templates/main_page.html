@@ -2,20 +2,22 @@
 {%  load static %}
 {% block body_top %}
 
-    <div class="container establishment-date-container py-5">
+    <div class="founded-date-container p-4">
         <div class="row">
             <div class="col-md-6 text-end">
                 <img src="{% static 'Webserver_Office/main_page/indoor/5.jpg'%}" class="m-auto p-1 w-100 img_trans" alt="inner office">
                 </div>
-            <div class="col-md-6 text-center text-md-start">
-                <h4 class="pt-3 pt-sm-5 mt-3 mt-sm-5" >Founded in <br/> <span class="text-success">2022/January/22</span> </h4>
-                <p class="display-6" style="font-size: large">The office of Engineer <span class="fw-bold">Abdulmohsen Khalil Ali Abdoh Al-Sayegh</span> for Engineering Consultations has been instituted, and we are honored to serve you.</p>
+            <div class="col-md-6 text-center text-md-start p-sm-5">
+                <h1 class="display-1 pt-3 pt-sm-5 mt-3 mt-sm-5 text-light" style="font-size: xxx-large" >Founded in <br/> <span class="text-success" style="font-size: xx-large">2022/January/22</span> </h1>
+                <hr class="bg-light">
+                <p class="display-6 text-light" style="font-size: x-large">The office of Engineer <span class="fw-bold">Abdulmohsen Khalil Ali Abdoh Al-Sayegh</span> for Engineering Consultations has been instituted, and we are honored to serve you.</p>
             </div>
         </div>
     </div>
 
-    <hr class="mx-5">
-    <article class="our-goal-article mb-5 justify-content-center">
+    <hr class="m-5 bg-warning ">
+
+    <article class="our-goal-article justify-content-center ">
 {#        <div class="container our-goal-container m-0 p-0" >#}
             <div class="row">
 {#                <img src="{% static "Webserver_Office/main_page/buildings/168.jpg" %}" alt="our_goal_bg_img" style="background-size: cover;">#}
@@ -36,8 +38,8 @@
 .our-goal-article{
     background-color: #0f5132;
     background-image: linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
         ),url("{% static 'Webserver_Office/main_page/backgrounds/168.jpg' %}");
     padding: 60px 30px;
 
@@ -51,7 +53,8 @@
 @media (min-width: 576px)
     {
         .our-goal-article{
-            padding: 2vw 5vw
+            padding: 2vw 5vw;
+            margin-bottom: 0;
         }
         .our-goal-article h1{font-size: xx-large}
         .our-goal-article p{font-size: x-large}
@@ -59,12 +62,100 @@
     }
 </style> {% comment %}our goal article style{% endcomment %}
 
-    <div class="container bg-danger">
+    <hr class="m-5 bg-warning">
+
+    <div class="about-us-container p-4">
         <div class="row">
-            <div class="col">7</div>
-            <div class="col">8</div>
+            <div class="col-md-6 text-center text-md-start p-sm-5">
+                <h1 class="display-1 pt-sm-5 mt-sm-5 text-success" style="font-size: xxx-large">About us</h1>
+                <hr class="bg-light">
+                <p class="display-6 text-light" style="font-size: x-large">Engineer <span class="fw-bold">Abdulmohsen</span>'s office provides consulting services that serve clients in the governmental and private sectors.
+                    Our employees work with the highest innovative engineering techniques and scientific methods to provide high quality designs and practical solutions to our customers in all regions.</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="{% static 'Webserver_Office/main_page/indoor/12.webp'%}" class="m-auto p-1 w-100 img_trans" alt="inner office">
+            </div>
         </div>
     </div>
+
+    <hr class="m-5 bg-warning">
+
+    <article class="our-mission-article justify-content-center ">
+{#        <div class="container our-goal-container m-0 p-0" >#}
+            <div class="row">
+{#                <img src="{% static "Webserver_Office/main_page/buildings/168.jpg" %}" alt="our_goal_bg_img" style="background-size: cover;">#}
+                <div class="col text-center text-light ">
+                    <h1 class="display-6 fw-bold text-success">Our mission</h1>
+                    <p class="display-6">
+                        Increasing and developing the optimal investment of all kinds of resources by directing spending, reducing
+                        wastage in the engineering and non-engineering fields, and educating the beneficiaries.<br><br>
+                        Providing the best service in various engineering fields.<br><br>
+                        Contribute to the advancement of the profession at all levels.<br><br>
+                        Contribute to directing potentials in the right direction and away from randomness in line with the successive
+                        developments of the era by organizing and facilitating work procedures in an organized economic manner.<br><br>
+                        That the name of Abdul Mohsen Khalil Abdo Al Sayegh Engineering Office be associated with high professional
+                        performance according to international and local scientific standards.<br><br>
+                        Obtaining advanced creative ideas, energizing youthful energies, and providing them with the necessary capabilities to highlight their creativity in various fields.<br><br>
+                    </p>
+                </div>
+
+                <div class="gif-container text-light w-100 justify-content-center text-center">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{% static 'Webserver_Office/main_page/gif/tools.gif'%}" class="m-auto p-1 w-100" alt="inner office">
+                            <h1 class="display-6">All engineering services</h1>
+                        </div>
+                        <div class="col-3">
+                            <img src="{% static 'Webserver_Office/main_page/gif/diamond.gif'%}" class="m-auto p-1 w-100" alt="inner office">
+                            <h1 class="display-6">Quality of services</h1>
+                        </div>
+                        <div class="col-3">
+                            <img src="{% static 'Webserver_Office/main_page/gif/lamp.gif'%}" class="m-auto p-1 w-100" alt="inner office">
+                            <h1 class="display-6">Creativity in ideas</h1>
+                        </div>
+                        <div class="col-3">
+                            <img src="{% static 'Webserver_Office/main_page/gif/check.gif'%}" class="m-auto p-1 w-100" alt="inner office">
+                            <h1 class="display-6">Guaranteed Satisfaction</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{#        </div>#}
+    </article>
+<style>
+.our-mission-article{
+    background-color: #0f5132;
+    background-image: linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),url("{% static 'Webserver_Office/main_page/backgrounds/28.jpg' %}");
+    padding: 60px 30px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gif-container h1{
+    font-size: small;
+}
+.our-mission-article p{font-size: large}
+@media (min-width: 576px)
+    {
+        .our-mission-article{
+            padding: 2vw 5vw;
+            margin-bottom: 0;
+        }
+        .our-mission-article h1{font-size: xx-large}
+        .gif-container h1{font-size: large}
+        .our-mission-article p{font-size: large}
+
+    }
+
+@media (min-width: 1000px) {
+    .gif-container h1{font-size: x-large}
+}
+</style> {% comment %}our goal article style{% endcomment %}
 
     <div class="container bg-primary">
         <div class="row">

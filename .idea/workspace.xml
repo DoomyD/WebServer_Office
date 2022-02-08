@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebServer_Office/static/Webserver_Office/main_page/buildings/168.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/DoomyDe/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/DoomyDe/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
@@ -120,7 +119,7 @@
       <workItem from="1644156676568" duration="435000" />
       <workItem from="1644157136290" duration="51000" />
       <workItem from="1644157204176" duration="59513000" />
-      <workItem from="1644274823736" duration="5240000" />
+      <workItem from="1644274823736" duration="15620000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Bootstrap V5">
       <created>1643479913485</created>

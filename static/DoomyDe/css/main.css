@@ -1,4 +1,7 @@
 /*Defaults*/
+.html{
+    background-color: rgb(47, 47, 47);
+}
 .brand{
 
     }
@@ -24,8 +27,21 @@
 .navbar{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.establishment-date-container{
-    background-color: #00000009;
+.founded-date-container{
+    /*Sizing*/
+    margin:-1px 4vw;
+    border-radius: 4px;
+    /*Coloring-Texting*/
+    text-shadow: 0 0 10px #000000;
+    background-color: rgb(77, 77, 77);
+}
+.about-us-container{
+    /*Sizing*/
+    margin-inline:4vw;
+    border-radius: 4px;
+    /*Coloring-Texting*/
+    text-shadow: 0 0 10px #000000;
+    background-color: rgb(77, 77, 77);
 }
 .img_trans:hover{
     opacity: 0.9;
