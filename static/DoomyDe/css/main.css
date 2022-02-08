@@ -27,20 +27,11 @@
 .establishment-date-container{
     background-color: #00000009;
 }
-.our-goal-container{
-
-}
-.our-goal-container .row img{
-    /*position: absolute;*/
-
-}
-.our-goal-article{
-
-}
 .img_trans:hover{
     opacity: 0.9;
 }
 /*End Defaults*/
+
 
 
 /*Custom Width*/
@@ -69,7 +60,11 @@
 
 /* Medium Width: 768px */
 @media only screen and (max-width: 768px){
-
+    html, body
+    {
+    width: auto !important;
+    overflow-x: hidden !important;
+    }
 }
 
 
