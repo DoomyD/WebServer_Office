@@ -4,6 +4,7 @@
     <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="setup base html templates.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/DoomyDe/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/DoomyDe/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,7 @@
       <workItem from="1644157204176" duration="59513000" />
       <workItem from="1644274823736" duration="19469000" />
       <workItem from="1644353160843" duration="1041000" />
-      <workItem from="1644368294883" duration="1753000" />
+      <workItem from="1644368294883" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Bootstrap V5">
       <created>1643479913485</created>
