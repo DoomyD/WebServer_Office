@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="setup base html templates.">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebServer_Office/templates/main_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/DoomyDe/css/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bases/testnavbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebServer_Office/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="setup base html templates." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +119,7 @@
       <workItem from="1644274823736" duration="19469000" />
       <workItem from="1644353160843" duration="1041000" />
       <workItem from="1644368294883" duration="17840000" />
-      <workItem from="1644442915226" duration="16856000" />
+      <workItem from="1644442915226" duration="18484000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Bootstrap V5">
       <created>1643479913485</created>

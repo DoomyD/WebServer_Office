@@ -7,10 +7,10 @@
   text-shadow: 0 0 6px #000000;
 }
 #nav-text-list li .nav-link {
-  color: #005a00;
+  color: #007800;
 }
 #nav-text-list li .active {
-  color: #008c00;
+  color: #00a000;
 }
 #nav-text-list li .nav-link:hover {
   border-radius: 10px;
