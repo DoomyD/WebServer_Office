@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45c2946-3b1c-42b0-8627-468dd1a9da9d" name="Changes" comment="setup base html templates.">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebServer_Office/templates/main_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/DoomyDe/css/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bases/testnavbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebServer_Office/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer_Office/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
         <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -45,28 +51,29 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebServer_Office/templates" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/bases" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\templates\bases" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\WebServer_Office\templates" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\templates" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\WebServer_Office" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office" />
-      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\djangoProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static\Navbar_Titles" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static\DoomyDe\css" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\templates\bases" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\WebServer_Office\templates" />
+      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static\Navbar_Titles" />
       <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\favicon_statics" />
-      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static" />
-      <recent name="C:\Users\GameDev\PycharmProjects\WebServer_Office\static-root" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +126,8 @@
       <workItem from="1644157204176" duration="59513000" />
       <workItem from="1644274823736" duration="19469000" />
       <workItem from="1644353160843" duration="1041000" />
-      <workItem from="1644368294883" duration="16337000" />
+      <workItem from="1644368294883" duration="17840000" />
+      <workItem from="1644442915226" duration="16856000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Bootstrap V5">
       <created>1643479913485</created>

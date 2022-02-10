@@ -1,0 +1,43 @@
+{#This html is intended to be included in file that uses bootstrap5!#}
+{% load static %}
+
+
+<nav class="navbar navbar-expand-lg navbar-dark py-4" >
+    <div  class="container-fluid bg-dark">
+        <div class="brand-container">
+            <a href="{% url 'main_page' %}">
+                <img src="{% static 'favicon.ico' %}" alt="favicon">
+            </a>
+            <h1 class="text-white display-6">Abdulmohsen's Engineering Consulting Office</h1>
+        </div>
+    <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+
+      <ul class="navbar-nav" id="nav-text-list">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Our Goal</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+    {#        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">#}
+        <button class="btn btn-outline-success mx-4 d-none" type="submit">SignIn</button>
+        <button class="btn btn-success d-none" type="submit">SignUp</button>
+      </form>
+    </div>
+    </div>
+
+</nav>
+
+<link rel="stylesheet" href="{% static 'DoomyDe/css/navbar.css' %}">

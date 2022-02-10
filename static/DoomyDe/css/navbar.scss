@@ -1,0 +1,74 @@
+//Start Variables
+$de-bg-dark1: rgba(90, 90, 90, 1);
+$de-bg-dark2: rgba(130, 130, 130, 1);
+$de-bg-dark3: rgba(170, 170, 170, 1);
+$nav-link-text-green: rgb(0, 90, 0);
+$nav-link-text-blue: rgb(0, 60, 200);
+$nav-link-text-green-active: rgb(0, 140, 0);
+$nav-link-text-green-hovered: rgb(0, 200, 0);
+
+//End Variables
+//Start Functions
+@mixin FlexCenter(){
+  display: flex;
+  justify-content: center; // X Axis (Main)
+  align-items: center; // Y Axis (Cross)
+
+  //But align-content is for multi line flexible boxes. It has no effect when items are in a single line. It aligns the whole structure according to its value.
+}
+//End Functions
+/*Start General*/
+
+
+/*End General*/
+#nav-text-list{
+  li{
+    text-shadow: 0 0 6px #000000;
+    .nav-link{color: $nav-link-text-green}
+    .active{color: $nav-link-text-green-active}
+    .nav-link:hover{
+      border-radius: 10px;
+      color: $nav-link-text-blue;
+      background-color: rgba(0,0,0,0.20);
+    }
+  }
+  color: red;
+}
+
+.brand-container{
+  //Positioning
+  position: absolute;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+  //Content Arranging
+  white-space: nowrap;
+  //Subcontinents
+  h1{font-size: large;}
+  a{
+    @include FlexCenter();
+    flex-direction: column;
+    margin: 0 100px;
+    text-decoration: none;
+  }
+}
+// Bootstrap lg breakpoint is 992xp
+@media (max-width: 992px) {
+.brand-container{
+  flex-direction: row;
+  transform: translate(-23%, -50%);
+}
+}
+@media (max-width: 540px) {
+.brand-container{
+  flex-direction: row;
+  transform: translate(-36%, -50%);
+h1{font-size: small;}
+  a{
+
+    img{
+      width: 40px;
+    }
+  }
+}
+}
